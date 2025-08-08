@@ -33,7 +33,7 @@ form.addEventListener('submit',
       if (passwordvalue === '') {
          passwordError.textContent = 'username is required';
          password.style.borderColor = 'red';
-      } else if (passwordvalue.length < 6) {
+      } else if (passwordvalue.length < 8) {
          passwordError.textContent = "must be of 6 digit"
          password.style.borderColor = "red"
       }
